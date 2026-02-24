@@ -52,16 +52,9 @@ http://localhost:5173
 
 ## 🔑 API Configuration
 
-The app uses OpenWeatherMap API. You need to get a free API key:
+The app uses the free Open-Meteo API, which does not require an API key!
 
-1. Visit [OpenWeatherMap](https://openweathermap.org/api)
-2. Create an account and get your free API key
-3. Open `src/utils/constants.js`
-4. Replace the API key:
-```
-javascript
-export const API_KEY = "YOUR_API_KEY_HERE";
-```
+No configuration needed - it works out of the box!
 
 ## 📁 Project Structure
 
